@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "nunito";
+    font-style: normal;
+  }
+  body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+nav >.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+  nav >.navbar> ul>li{
+      margin: 15px;
+      background-color: blue;
+      display: inline-block;
+      padding: 15px;
+     
+  }
+  .login{
+    padding: 10px;
+    font-weight: 400;
+    background-color: #EC4067;
+    color:white;
+    border: #EC4067;
+  }
+  .login1{
+    padding: 10px;
+    font-weight: 400;
+    background-color: #EC4067;
+    color:white;
+    border: #EC4067;
+  }
+  #scheader{
+      background-image: url(../Assets/Images/moving\ 1.png);
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+  }
+  #scheader>.header> h3{
+      font-size: 60px;
+      color: yellow;
+      font-weight: 300;
+      justify-content: left;
+      font-family: "Poppins",  "Actor", "Adamina";
+      padding-left: 90px;
+  }
+  #scheader>.header> p{
+      color: white;
+      font-size: 35px;
+      padding-left: 90px;
+  }
+
+
+
+
+
+  /*  2nd page*/
+.modern{
+    background-color: black;
+    height: 160px;
+}
+#navbar>.navlink>. ul>.li{
+    margin: 15px;
+    display: inline-block;
+    padding: 15px;
+    color: aliceblue;
+   
+}
+
+
+
+
+
+  
