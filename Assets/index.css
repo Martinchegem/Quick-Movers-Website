@@ -16,12 +16,26 @@ nav >.navbar{
 }
 
   nav >.navbar> ul>li{
-      margin: 15px;
-      background-color: blue;
+      margin: 5px;
+      color: white;
       display: inline-block;
-      padding: 15px;
-     
+      padding: 10px;
+      font-size: large;
+      display: start end;
   }
+
+#Login{
+      color: black;
+      background-color: yellow;
+  }
+  #Login1{
+      color: yellow;
+      background-color: black;
+  }
+  body >#backimg >.navbar > ul> li{
+    display: flex;
+}
+
   .login{
     padding: 10px;
     font-weight: 400;
@@ -36,11 +50,16 @@ nav >.navbar{
     color:white;
     border: #EC4067;
   }
+
+  #backimg{
+    background-image: url(../Assets/Images/moving\ 1.png);
+    background-size: cover;
+      background-position: center;
+    height: 95vh;
+  }
   #scheader{
-      background-image: url(../Assets/Images/moving\ 1.png);
       background-size: cover;
       background-position: center;
-      height: 80vh;
       display: flex;
       align-items: center;
       justify-content: left;
@@ -58,22 +77,54 @@ nav >.navbar{
       font-size: 35px;
       padding-left: 90px;
   }
-
-
-
-
-
+#cut{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#cut >.hustle{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+#cut >.hustle >.leftimg, .righttxt{
+    width: 50%;
+    padding: 20px;
+}
+#cut >.hustle >.leftimg{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin: 20px;
+}
+#cut >.hustle >.righttxt{
+    padding-right: 30px;
+}
+#cut >.hustle >.righttxt >.learnmore{
+    background-color: black;
+    padding: 5px;
+    color: yellow;
+}
   /*  2nd page*/
-.modern{
+.modern1{
     background-color: black;
     height: 160px;
 }
-#navbar>.navlink>. ul>.li{
-    margin: 15px;
-    display: inline-block;
-    padding: 15px;
-    color: aliceblue;
-   
+.navbar1{
+  display: flex;
+ 
+}
+.navbar1 >.modern1, .navlink1{
+  margin: 5px;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  font-size: large;
+  display: start end;
+}
+.linkhere{
+  color: black;
 }
 
 
