@@ -22,20 +22,21 @@ nav >.navbar> ul>li{
   font-size: 20px;
   margin-right: 50px;
 }
-  .login{
-    padding: 10px;
-    font-weight: 400;
-    background-color: #EC4067;
-    color:white;
-    border: #EC4067;
-  }
-  .login1{
-    padding: 10px;
-    font-weight: 400;
-    background-color: #EC4067;
-    color:white;
-    border: #EC4067;
-  }
+#Login{
+  color: black;
+  background-color: yellow;
+  border: none;
+  padding: 5px;
+ font-size: 20px;
+}
+#Login1{
+  color: yellow;
+  background-color: black;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
   #scheader{
       background-image: url(../Assets/Images/moving\ 1.png);
       background-size: cover;
