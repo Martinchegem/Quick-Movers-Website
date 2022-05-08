@@ -133,3 +133,41 @@ margin-top: 90px;
 #cut >.hustle >.righttxt >.learnmore >i{
 color: #FAFF00;
 }
+.top{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+ background-size: cover;
+
+}
+.top >h2{
+  height: 150px;
+  position: relative;
+  left: 250px;
+  font-size: 50px;
+font-weight: 100;
+}
+
+.top >.movers> h2{
+  font-size: 55px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.movers{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+}
+
+.gridmovers >img{
+  width: 250px;
+  justify-content: center;
+}
+.top >.gridmovers>h3{
+  border-radius: 20px;
+  height:500px;
+  background-color: white;
+  padding: 20px;
+  border-bottom: solid 3px rgb(185, 181, 181);
+  margin: 20px;
+}
