@@ -1,8 +1,9 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: "nunito";
+  font-family: "Poppins",  "Actor", "Adamina";
   font-style: normal;
+  text color: #FAFF00;
 }
 body{
   background-color: rgb(250, 249, 249);
