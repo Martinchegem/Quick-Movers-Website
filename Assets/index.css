@@ -1,18 +1,17 @@
 *{
-    padding: 0;
-    margin: 0;
-    font-family: "nunito";
-    font-style: normal;
-  }
-  body{
-    background-color: white;
-    padding: 0;
-    margin: 0;
-  }
-nav >.navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+  padding: 0;
+  margin: 0;
+  font-family: "nunito";
+  font-style: normal;
+}
+body{
+  background-color: rgb(250, 249, 249);
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+display: flex;
+justify-content: flex-end;
 }
 
   nav >.navbar> ul>li{
