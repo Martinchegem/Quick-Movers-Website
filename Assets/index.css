@@ -37,48 +37,99 @@ nav >.navbar> ul>li{
   font-size: 20px;
 }
 
-  #scheader{
-      background-image: url(../Assets/Images/moving\ 1.png);
-      background-size: cover;
-      background-position: center;
-      height: 80vh;
-      display: flex;
-      align-items: center;
-      justify-content: left;
-  }
-  #scheader>.header> h3{
-      font-size: 60px;
-      color: yellow;
-      font-weight: 300;
-      justify-content: left;
-      font-family: "Poppins",  "Actor", "Adamina";
-      padding-left: 90px;
-  }
-  #scheader>.header> p{
-      color: white;
-      font-size: 35px;
-      padding-left: 90px;
-  }
-
-
-
-
-
-  /*  2nd page*/
-.modern{
-    background-color: black;
-    height: 160px;
+#backimg{
+  background-image: url(../Assets/Images/moving\ 1.png);
+  background-size: cover;
+    background-position: center;
+  height: 105vh;
 }
-#navbar>.navlink>. ul>.li{
-    margin: 15px;
-    display: inline-block;
-    padding: 15px;
-    color: aliceblue;
-   
+#scheader{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.header{
+  position: relative;
+  top: 90px;
+}
+#scheader>.header> h3{
+    font-size: 60px;
+    color: yellow;
+    font-weight: 300;
+    justify-content: left;
+    font-family: "Poppins",  "Actor", "Adamina";
+    padding-left: 90px;
+}
+#scheader>.header> p{
+    color: white;
+    font-size: 35px;
+    padding-left: 90px;
+}
+#cut{
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+#cut >.hustle{
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  flex-direction: row;
+  align-items: center;
 }
 
+#cut >.hustle >.leftimg, .righttxt{
+  width: 50%;
+  padding: 20px;
+  justify-content:space-between;
+}
 
+#cut >.hustle >.leftimg > img{
 
+width: 550px;
+display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+#cut >.hustle >.righttxt{
+width: 500px;
+ margin-left:20px;
+ 
+}
+#cut >.hustle >.righttxt>h2{
+border: 10px solid;
+border-image-slice: 1;
+border-width: 6px;
+border-image-source: linear-gradient(to left, #111109, #FFAC12);
+padding: 15px;
+font-size: 48px;
+border-bottom: none;
+border-right: none;
+border-left: none;
+font-weight: none;
+margin-bottom: 20px;
 
+}
+#cut >.hustle >.righttxt>p{
+font-size: 20px;
+color: rgb(167, 161, 161);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 20px;
+}
 
-  
+#cut >.hustle >.righttxt >.learnmore{
+align-items: flex-end;
+background-color: black;
+color:#FAFF00;
+padding: 20px; 
+font-size: 25px;  
+border-top-right-radius: 15px;
+position:relative;
+margin-top: 90px;
+}
+#cut >.hustle >.righttxt >.learnmore >i{
+color: #FAFF00;
+}
