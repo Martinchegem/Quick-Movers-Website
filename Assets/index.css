@@ -25,13 +25,13 @@ nav >.navbar> ul>li{
 }
 #Login{
   color: black;
-  background-color: yellow;
+  background-color: #FFAC12;
   border: none;
   padding: 5px;
  font-size: 20px;
 }
 #Login1{
-  color: yellow;
+  color:  #FFAC12;
   background-color: black;
   border: none;
   padding: 5px;
@@ -57,7 +57,7 @@ nav >.navbar> ul>li{
 }
 #scheader>.header> h3{
     font-size: 60px;
-    color: yellow;
+    color:  #FFAC12;
     font-weight: 300;
     justify-content: left;
     font-family: "Poppins",  "Actor", "Adamina";
@@ -104,7 +104,7 @@ width: 500px;
 border: 10px solid;
 border-image-slice: 1;
 border-width: 6px;
-border-image-source: linear-gradient(to left, #111109, #FFAC12);
+border-image-source: linear-gradient(to left, #111109,  #FFAC12);
 padding: 15px;
 font-size: 48px;
 border-bottom: none;
@@ -124,7 +124,7 @@ margin-bottom: 20px;
 #cut >.hustle >.righttxt >.learnmore{
 align-items: flex-end;
 background-color: black;
-color:#FAFF00;
+color: #FFAC12;
 padding: 20px; 
 font-size: 25px;  
 border-top-right-radius: 15px;
@@ -132,7 +132,7 @@ position:relative;
 margin-top: 90px;
 }
 #cut >.hustle >.righttxt >.learnmore >i{
-color: #FAFF00;
+color: #FFAC12;
 }
 .top{
   margin-top: 30px;
@@ -194,7 +194,7 @@ font-weight: 100;
     display:flex;
   }
   .tap span{
-    color:yellow;
+    color: #FFAC12;
   }
   .tap span3{
   margin-left: 1000px;
@@ -289,7 +289,7 @@ font-weight: 100;
       display:flex;
     }
     .tap span{
-      color:yellow;
+      color: #FFAC12;
     }
     .tap span3{
     margin-left: 1000px;
@@ -391,7 +391,7 @@ font-weight: 100;
   }
   .work{
    align-items: flex-end;
-    background-color: orange;
+    background-color:  #FFAC12;
     color: black;
     padding: 20px; 
     font-weight: bold;
@@ -543,7 +543,7 @@ position: relative;
 .first>li::before{
   content: " ";
 		display: block;
-		border: solid .8em orange;
+		border: solid .8em  #FFAC12;
 		border-radius: .8em;
 		height: 0;
 		width: 0;
