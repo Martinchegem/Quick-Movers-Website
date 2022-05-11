@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ece8e3;
+
+}
+.navbarm{
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+    nav >.navbarm> ul>li{
+        margin: 5px;
+        color: white;
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+        margin-right: 50px;
+    }
+    #navbarm{
+        background-color: black;
+      display: flex;
+        color: white;
+        flex-direction: column-reverse;
+      }
+
+
+.center-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5vw 7vw;
+  }
+
+  .center-left {
+    width: 65%; 
+  }
+
+  .center-left img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 3vw;
+  }
+
+  .small-images {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: nowrap;
+      margin-bottom: 3vw;
+  }
+
+  .small-images img{
+    width: 6vw;
+  }
+  .details {
+    width: 100%;
+    background-color: white;
+    border-radius: 2vw;
+  }
+  .details-p {
+    padding: 2vw;
+
+  }
+  .details-icons {
+      border-top: 1px solid #e2dfdf;
+      width: 100%;
+      display: flex;
+  }
+  .details-icons  div {
+      width: 33.3%;
+      padding: 2vw;
+      text-align: center;
+  }
+
+.details-icons  div:nth-child(1) {
+    border-right: 1px solid #e2dfdf;
+}
+
+.details-icons  div:nth-child(3) {
+    border-left: 1px solid #e2dfdf;
+}
+  .center-right {
+      width: 30%;
+  }
+  .description{
+  width: 100%;
+  background-color: white;
+  border-radius: 3vw;
+  border-top: 1px;
+  text-align: left;
+  border-bottom: 1px solid #e2dfdf;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  
+  }
+  .description-p, .para{
+    padding: 2vw;
+  }
+ 
+  .features{
+  width: 100%;
+  background-color: white;
+  border-radius: 3vw;
+  }
+  #features>.feature>h1{
+    border-bottom: solid 2px rgb(209, 200, 200);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: none;
+    }
+    
+    .Similar{
+       width: 100%;
+       flex-wrap: nowrap;
+       margin-bottom: 3vw;
+       margin: 2.5vw 7vw;
+        }
+    
+    .Similar >.listings>h1{
+        color:black;
+        }
+    .feature{
+        padding: 3vw;
+    }
+    .bgimg {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: nowrap;
+        margin-bottom: 3vw;
+    }
+  
+    .bgimg img{
+      width: 25vw;
+    }
+    .couch > img{
+        height: auto;
+    }
+    .checkmark{
+       padding: 2vw;
+       border-top: gray;
+       display: flex;
+       justify-content: space-between;
+    }
+    .checkmark ul{
+       list-style: none;
+    }
+    .checkmark ul li{
+        padding: 1vw;
+    }
+
+    footer {
+        width: 100%;
+        height: 95vh;
+        background-color: black;
+        color: white;
+        padding: 0 10vw;
+        font-family: 'Actor', sans-serif;
+    }
+    
+    span {
+        color: #FAFF00;
+        padding-left: 2vw;
+    }
+
+    
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 3vw;
+        padding: 6vw 0 4vw;
+        border-bottom: 1px solid #5c5b5a;
+    }
+    
+    .yellow button {
+        color: black;
+        border-top-right-radius: 2vw;
+        background-color: #FFAC12;
+        font-size: 2vw;
+        border: none;
+        padding: 2vw 3vw;
+    }
+    
+    .yellow button .fa-solid{
+        
+        margin-left: 2vw;
+        text-align: center;
+    }
+    
+    .bottomleft {
+        padding: 4vw 0 7vw;
+        display: flex;
+    }
+    
+    .three {
+        display: flex;
+        width: 40%;
+        align-items: center;
+    }
+    
+    .three .fa-brands{
+        padding-right: 2vw;
+        font-size: 2vw;
+    }
+    .linkhere {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+    
+    .linkhere ul{
+        list-style: none;
+    }
+    
+    .linkhere ul li{
+        color: #887f7f;
+        font-size: 1.3vw;
+        padding-bottom: 1rem;
+    }
+    .linkhere ul h6{
+        color: #fff;
+        font-size: 1.3vw;
+    }
+    
