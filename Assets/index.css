@@ -197,6 +197,84 @@ padding: 2.5vw;
 border-bottom: solid 3px rgb(185, 181, 181);
 margin: 20px;
 }
+
+
+.navlink{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  border-bottom: solid 2px rgb(82, 79, 79);
+  padding: 20px;
+  list-style: none;
+ text-decoration: none;
+}
+.navlink> ul>li{
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  font-size: large;
+  display: start end;
+ margin-left:150px;
+}
+.work{
+ align-items: flex-end;
+  background-color: #FFAC12;
+  color: black;
+  padding: 20px; 
+  font-weight: bold;
+  font-size: 25px;  
+  border-top-right-radius: 15px;
+  position:relative;
+}
+i{
+  color: white;
+  margin-left: 20px;
+}
+.modern{
+display: flex;
+align-content: space-between;
+padding: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+}
+.modern span{
+  color: rgb(110, 104, 104);
+  font-size:20px;
+}
+.dollar{
+  margin-left: 850px;
+}
+
+
+.center-div {
+  display: flex;
+  margin: 2.5vw 7vw;
+}
+.center-right {
+  width: 65%; 
+}
+.room{
+margin-right:20px;
+}
+.room2{
+margin-right:20px;
+}
+.tree{
+margin-right:20px;
+}
+
+#features{
+display:flex;
+width: 1350px;
+background-color: white;
+padding: 20px;
+border-radius: 30px;
+margin-left: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .bottomone{
   display: flex;
   justify-content: space-between;
@@ -254,123 +332,6 @@ margin: 20px;
 .linkhereone ul h6{
   color: #fff;
   font-size: 1.3vw;
-}
-
-.navlink{
-  display: flex;
-  justify-content: space-between;
-  margin-left: 80px;
-  border-bottom: solid 2px rgb(82, 79, 79);
-  padding: 20px;
-  list-style: none;
- text-decoration: none;
-}
-.navlink> ul>li{
-  color: white;
-  display: inline-block;
-  padding: 10px;
-  font-size: large;
-  display: start end;
- margin-left:150px;
-}
-.work{
- align-items: flex-end;
-  background-color: #FFAC12;
-  color: black;
-  padding: 20px; 
-  font-weight: bold;
-  font-size: 25px;  
-  border-top-right-radius: 15px;
-  position:relative;
-}
-i{
-  color: white;
-  margin-left: 20px;
-}
-.modern{
-display: flex;
-align-content: space-between;
-padding: 20px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 40px;
-}
-.modern span{
-  color: rgb(110, 104, 104);
-  font-size:20px;
-}
-.dollar{
-  margin-left: 850px;
-}
-
-/* #scheader2{
-display: flex;
-flex-direction: column;
-}
-.smallimages{
-display: flex;
-margin: 10px;
-
-}
-.Desc{
-background-color: white;
-padding: 20px;
-display: flex;
-width:1350px;
-border-radius: 30px;
-margin-left: 20px;
-margin-top: 20px;
-margin-bottom: 20px;
-font-size: 25px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.Desc>.description>h3{
-border-bottom: solid 2px rgb(209, 200, 200);
-margin-bottom: 20px;
-padding-bottom: 20px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight: none;
-}
-.Desc>.description>p{
-color: rgb(156, 150, 150);
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size:20px;
-} */
-
-.center-div {
-  display: flex;
-  margin: 2.5vw 7vw;
-
-
-}
-
-
-.center-right {
-  width: 65%; 
-}
-
-
-
-.room{
-margin-right:20px;
-}
-.room2{
-margin-right:20px;
-}
-.tree{
-margin-right:20px;
-}
-
-#features{
-display:flex;
-width: 1350px;
-background-color: white;
-padding: 20px;
-border-radius: 30px;
-margin-left: 20px;
-margin-top: 20px;
-margin-bottom: 20px;
-font-size: 25px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
