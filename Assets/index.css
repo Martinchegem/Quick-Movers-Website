@@ -44,6 +44,7 @@ nav >.navbar> ul>li{
   background-size: cover;
     background-position: center;
   height: 105vh;
+  width: 100%;
 }
 #scheader{
     background-size: cover;

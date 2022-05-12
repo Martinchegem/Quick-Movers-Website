@@ -19,12 +19,16 @@ body {
         padding: 10px;
         font-size: 20px;
         margin-right: 50px;
+
     }
     #navbarm{
         background-color: black;
       display: flex;
         color: white;
         flex-direction: column-reverse;
+      }
+      .navlink{
+
       }
 
 
@@ -235,4 +239,22 @@ body {
         font-size: 2vw;
         border: none;
         padding: 2vw 3vw;
+        height: min-content;
+    }
+    .hall{
+        padding: 1vw 1.5vw;
+        border: 1px solid gray;
+        bord
+    }
+    .name{
+        padding: 1vw 1.5vw;
+        border: 1px solid gray;
+    }
+    .phone{
+        padding: 1vw 1.5vw;
+        border: 1px solid gray;
+    }
+    .email{
+        padding: 1vw 1.5vw;
+        border: 1px solid gray;
     }
