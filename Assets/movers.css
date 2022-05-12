@@ -227,3 +227,12 @@ body {
         font-size: 1.3vw;
     }
     
+
+    .tableright{
+        color: black;
+        border-top-right-radius: 2vw;
+        background-color: white;
+        font-size: 2vw;
+        border: none;
+        padding: 2vw 3vw;
+    }
