@@ -86,13 +86,13 @@ nav >.navbar> ul>li{
 
 #cut >.hustle >.leftimg, .righttxt{
   width: 50%;
-  padding: 20px;
+  padding: 2vw;
   justify-content:space-between;
 }
 
 #cut >.hustle >.leftimg > img{
 
-width: 550px;
+width: 50vw;
 display: flex;
 justify-content: center;
 padding-top: 10px;
@@ -107,8 +107,8 @@ border: 10px solid;
 border-image-slice: 1;
 border-width: 6px;
 border-image-source: linear-gradient(to left, #111109, #FFAC12);
-padding: 15px;
-font-size: 48px;
+padding: 2vw;
+font-size: 4vw;
 border-bottom: none;
 border-right: none;
 border-left: none;
@@ -117,7 +117,7 @@ margin-bottom: 20px;
 
 }
 #cut >.hustle >.righttxt>p{
-font-size: 20px;
+font-size: 2vw;
 color: rgb(167, 161, 161);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 margin-bottom: 20px;
@@ -127,8 +127,8 @@ margin-bottom: 20px;
 align-items: flex-end;
 background-color: black;
 color:#FAFF00;
-padding: 20px; 
-font-size: 25px;  
+padding: 2vw; 
+font-size: 2vw;  
 border-top-right-radius: 15px;
 position:relative;
 margin-top: 90px;
@@ -148,29 +148,29 @@ background-size: cover;
 height: 150px;
 position: relative;
 left: 250px;
-font-size: 50px;
+font-size:4vw;
 font-weight: 100;
 }
 
 .top >.movers> h2{
-font-size: 55px;
+font-size: 5vw;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .movers{
 display: grid;
-grid-template-columns: 300px 300px 300px;
+grid-template-columns: 25vw 25vw 25vw;
 justify-content: center;
 }
 
 .gridmovers >img{
-width: 250px;
+width: 20vw;
 justify-content: center;
 }
 .top >.gridmovers>h3{
 border-radius: 20px;
 height:500px;
 background-color: white;
-padding: 20px;
+padding: 2.5vw;
 border-bottom: solid 3px rgb(185, 181, 181);
 margin: 20px;
 }
