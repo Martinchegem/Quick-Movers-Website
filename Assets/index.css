@@ -26,13 +26,13 @@ nav >.navbar> ul>li{
 
 #Login{
     color: black;
-    background-color: yellow;
+    background-color: #FFAC12;
     border: none;
     padding: 5px;
    font-size: 2vw;
 }
 #Login1{
-    color: yellow;
+    color: #FAFF00;
     background-color: black;
     border: none;
     padding: 5px;
@@ -63,7 +63,7 @@ nav >.navbar> ul>li{
 }
 #scheader>.header> h3{
     font-size: 4.5vw;
-    color: yellow;
+    color: #FAFF00;
     font-weight: 300;
     justify-content: left;
     font-family: "Poppins",  "Actor", "Adamina";
@@ -275,7 +275,7 @@ margin: 20px;
 }
 .work{
  align-items: flex-end;
-  background-color: orange;
+  background-color: #FFAC12;
   color: black;
   padding: 20px; 
   font-weight: bold;
