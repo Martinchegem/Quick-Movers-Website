@@ -54,9 +54,6 @@ nav >.navbar> ul>li{
     justify-content: left;
 }
 
-.container {
-  width: 80%;
-}
 .header{
   position: relative;
   top: 90px;
@@ -76,7 +73,6 @@ nav >.navbar> ul>li{
 }
 
 #cut{
-
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: white;
@@ -96,7 +92,6 @@ nav >.navbar> ul>li{
 }
 
 #cut >.hustle >.leftimg > img{
-
 width: 50vw;
 display: flex;
 justify-content: center;
